@@ -16,4 +16,7 @@ With this project I am trying to learn more about Django itself and Keras deep l
 You can install all the dependencies with the supplied requirements.txt file
 
 
-Accuracy of the Keras deep learning model is around 80%. O have included a training.py script for retraining of the model. 
+Accuracy of the Keras deep learning model is around 80%. I have included a training.py script for retraining of the model. The way this project works is that when you start the local server with command 'python manage.py runserver', you will first set up the Tensorflow backend, and after that server starts and model is loaded once.
+
+
+After that you can go to address localhost:8000 to see the webpage. There you can insert your values to the fields and upon pressing the submit button, you will get a result back. At this moment it is not formatted to look nice. I will work on the project as time goes by.
