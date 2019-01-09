@@ -1,14 +1,47 @@
+html {
+	height: 100vh;
+}
+
+
+body {
+	background: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+}
+
+.divi {
+	background: url(../img/book.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
 
 input {
 	width: 30%;
 }
 
 .mybutton {
-	width: 10%;
+	width: 40%;
+	margin-top: 10px;
 }
 
 td {
 	padding: 5px;
 }
+
+form {
+	margin-left: 180px;
+}
+
+.results {
+	margin-left: 200px;
+}
+
+
 
 

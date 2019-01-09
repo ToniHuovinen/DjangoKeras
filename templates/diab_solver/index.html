@@ -2,32 +2,31 @@
 
 {% block content %}
 
-<h2>Please insert the measurements in their respected fields</h2>
 
-<!-- 
-<form method="POST">
-	
-	{{ form.as_p }}
-	{% csrf_token %}
-
-	<input class="btn btn-primary" type="submit" name="" value="Submit">
-</form> -->
-
-<form method="POST">
+<div class="divi">
 	<table>
-	{% for field in form %}
 		<tr>
-			<td>{{ field.label }}</td>
-			<td>{{ field }}</td>
+			<td>
+				<form method="POST">
+					<table>
+					{% for field in form %}
+					<tr>
+						<td>{{ field.label }}</td>
+						<td>{{ field }}</td>
+					</tr>
+					{% endfor %}
+					</table>
+					{% csrf_token %}
+
+					<input class="btn btn-primary mybutton" type="submit" name="" value="Submit">
+				</form>
+			</td>
+			<td>
+				<h2 class="results">Result</h2>
+				<h2 class="results">{{ result }}</h2>
+			</td>
 		</tr>
-	{% endfor %}
 	</table>
-	{% csrf_token %}
-
-	<input class="btn btn-primary mybutton" type="submit" name="" value="Submit">
-</form>
-
-
-<h1>{{ result }}</h1>
+</div>
 
 {% endblock %}
