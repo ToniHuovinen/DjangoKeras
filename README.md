@@ -22,4 +22,4 @@ Accuracy of the Keras deep learning model is around 80%. I have included a train
 After that you can go to address localhost:8000 to see the webpage. There you can insert your values to the fields and upon pressing the submit button, you will get a result back. 
 
 
-At this moment page is not responsive at all. That is next on my list.
+At this moment page is not responsive at all. That is next on my list. Will also add validation and rangelimits on the fields. 
