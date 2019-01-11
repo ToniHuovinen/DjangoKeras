@@ -13,6 +13,9 @@ With this project I am trying to learn more about Django itself and Keras deep l
 * Outcome (1 or 0, True or False)
 
 
+![Accuracy and model loss](https://github.com/ToniHuovinen/DjangoKeras/blob/master/git_images/charts.png)
+
+
 You can install all the dependencies with the supplied requirements.txt file
 
 
